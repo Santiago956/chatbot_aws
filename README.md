@@ -40,7 +40,6 @@ cp .env.example .env
 ```
 Edite o arquivo `.env` e preencha os valores:
 ```env
-OPENAI_API_KEY=sua_chave_openai
 GROQ_API_KEY=sua_chave_groq
 ```
 
