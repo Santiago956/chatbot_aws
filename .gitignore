@@ -1,0 +1,73 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Ambientes Virtuais ---
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Configurações e Segredos (CRÍTICO) ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+secrets.json
+.streamlit/secrets.toml
+
+# --- Base de Dados Vetorial e Modelos Locais ---
+vectorstore/
+db_faiss/
+models/
+.cache/
+sentence_transformers_temp/
+
+# --- Documentos ---
+# Descomente a linha abaixo se não quiser versionar os PDFs originais
+# docs/*.pdf
+
+# --- IDEs e Editores ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
+
+# --- Sistema Operacional ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# --- Logs ---
+*.log
+pip-log.txt
