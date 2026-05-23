@@ -42,9 +42,9 @@ def get_chatbot_response(query):
     
     PROMPT = PromptTemplate(template=template, input_variables=["context", "question"])
     
-    # Utilizando Llama 3 via Groq para alta performance
+    # Utilizando Llama 3.3 via Groq para alta performance (sucessor do Llama 3)
     llm = ChatGroq(
-        model_name="llama3-70b-8192",
+        model_name="llama-3.3-70b-versatile",
         temperature=0,
         groq_api_key=groq_key
     )

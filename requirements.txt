@@ -9,3 +9,4 @@ python-dotenv
 pypdf
 tiktoken
 streamlit
+duckduckgo-search
